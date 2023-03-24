@@ -1,0 +1,816 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96BD1B2829CD2FCD00AB5491 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BD1B2729CD2FCD00AB5491 /* String+Extension.swift */; };
+		96BD1B2A29CD31DA00AB5491 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BD1B2929CD31DA00AB5491 /* Date+Extension.swift */; };
+		96BD1B3329CDE9A000AB5491 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BD1B3229CDE9A000AB5491 /* UIImageView+Extension.swift */; };
+		96BFAE1729CA806F00460E9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAE1629CA806F00460E9A /* AppDelegate.swift */; };
+		96BFAE2029CA807000460E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BFAE1F29CA807000460E9A /* Assets.xcassets */; };
+		96BFAE2329CA807000460E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BFAE2129CA807000460E9A /* LaunchScreen.storyboard */; };
+		96BFAE2E29CA807000460E9A /* AdidasFifaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAE2D29CA807000460E9A /* AdidasFifaTests.swift */; };
+		96BFAE3829CA807000460E9A /* AdidasFifaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAE3729CA807000460E9A /* AdidasFifaUITests.swift */; };
+		96BFAE3A29CA807000460E9A /* AdidasFifaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAE3929CA807000460E9A /* AdidasFifaUITestsLaunchTests.swift */; };
+		96BFAE5329CA817200460E9A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAE5129CA817200460E9A /* MainViewController.swift */; };
+		96BFAE5429CA817200460E9A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96BFAE5229CA817200460E9A /* MainViewController.xib */; };
+		96BFAE5729CA828F00460E9A /* NET in Frameworks */ = {isa = PBXBuildFile; productRef = 96BFAE5629CA828F00460E9A /* NET */; };
+		96BFAE5929CA830B00460E9A /* Match.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAE5829CA830B00460E9A /* Match.swift */; };
+		96BFAE5B29CA87CD00460E9A /* DataBiding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAE5A29CA87CD00460E9A /* DataBiding.swift */; };
+		96BFAE5E29CA880B00460E9A /* SpinnerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAE5D29CA880B00460E9A /* SpinnerView.swift */; };
+		96BFAE6029CA881200460E9A /* SpinnerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96BFAE5F29CA881200460E9A /* SpinnerView.xib */; };
+		96BFAE6229CA885C00460E9A /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAE6129CA885C00460E9A /* View+Extension.swift */; };
+		96BFAE6429CA88F300460E9A /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAE6329CA88F300460E9A /* MainViewModel.swift */; };
+		96BFAE6929CA89BE00460E9A /* ErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAE6829CA89BE00460E9A /* ErrorResponse.swift */; };
+		96BFAE6B29CA89F000460E9A /* NetworkConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BFAE6A29CA89F000460E9A /* NetworkConstants.swift */; };
+		96E8DBC729CE19A2006F0000 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8DBC529CE19A2006F0000 /* ModalViewController.swift */; };
+		96E8DBC829CE19A2006F0000 /* ModalContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8DBC629CE19A2006F0000 /* ModalContainerView.swift */; };
+		96E8DBCC29CE19B9006F0000 /* TitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8DBC929CE19B9006F0000 /* TitleLabel.swift */; };
+		96E8DBCD29CE19B9006F0000 /* BodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8DBCA29CE19B9006F0000 /* BodyLabel.swift */; };
+		96E8DBCE29CE19B9006F0000 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8DBCB29CE19B9006F0000 /* ActionButton.swift */; };
+		96E8DBD029CE19EE006F0000 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8DBCF29CE19EE006F0000 /* UIViewController+Extension.swift */; };
+		96F54EF229CCB55A00201F24 /* MatchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F54EF029CCB55900201F24 /* MatchCell.swift */; };
+		96F54EF329CCB55A00201F24 /* MatchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F54EF129CCB55900201F24 /* MatchCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96BFAE2A29CA807000460E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96BFAE0B29CA806F00460E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96BFAE1229CA806F00460E9A;
+			remoteInfo = AdidasFifa;
+		};
+		96BFAE3429CA807000460E9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96BFAE0B29CA806F00460E9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96BFAE1229CA806F00460E9A;
+			remoteInfo = AdidasFifa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		96BD1B2729CD2FCD00AB5491 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		96BD1B2929CD31DA00AB5491 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		96BD1B3229CDE9A000AB5491 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		96BFAE1329CA806F00460E9A /* AdidasFifa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdidasFifa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BFAE1629CA806F00460E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		96BFAE1F29CA807000460E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		96BFAE2229CA807000460E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		96BFAE2429CA807000460E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96BFAE2929CA807000460E9A /* AdidasFifaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdidasFifaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BFAE2D29CA807000460E9A /* AdidasFifaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdidasFifaTests.swift; sourceTree = "<group>"; };
+		96BFAE3329CA807000460E9A /* AdidasFifaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdidasFifaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BFAE3729CA807000460E9A /* AdidasFifaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdidasFifaUITests.swift; sourceTree = "<group>"; };
+		96BFAE3929CA807000460E9A /* AdidasFifaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdidasFifaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		96BFAE5129CA817200460E9A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		96BFAE5229CA817200460E9A /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		96BFAE5829CA830B00460E9A /* Match.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Match.swift; sourceTree = "<group>"; };
+		96BFAE5A29CA87CD00460E9A /* DataBiding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataBiding.swift; sourceTree = "<group>"; };
+		96BFAE5D29CA880B00460E9A /* SpinnerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerView.swift; sourceTree = "<group>"; };
+		96BFAE5F29CA881200460E9A /* SpinnerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpinnerView.xib; sourceTree = "<group>"; };
+		96BFAE6129CA885C00460E9A /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
+		96BFAE6329CA88F300460E9A /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		96BFAE6829CA89BE00460E9A /* ErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResponse.swift; sourceTree = "<group>"; };
+		96BFAE6A29CA89F000460E9A /* NetworkConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstants.swift; sourceTree = "<group>"; };
+		96E8DBC529CE19A2006F0000 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
+		96E8DBC629CE19A2006F0000 /* ModalContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalContainerView.swift; sourceTree = "<group>"; };
+		96E8DBC929CE19B9006F0000 /* TitleLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleLabel.swift; sourceTree = "<group>"; };
+		96E8DBCA29CE19B9006F0000 /* BodyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BodyLabel.swift; sourceTree = "<group>"; };
+		96E8DBCB29CE19B9006F0000 /* ActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		96E8DBCF29CE19EE006F0000 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		96F54EF029CCB55900201F24 /* MatchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchCell.swift; sourceTree = "<group>"; };
+		96F54EF129CCB55900201F24 /* MatchCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MatchCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96BFAE1029CA806F00460E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BFAE5729CA828F00460E9A /* NET in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BFAE2629CA807000460E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BFAE3029CA807000460E9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		96BFAE0A29CA806F00460E9A = {
+			isa = PBXGroup;
+			children = (
+				96BFAE1529CA806F00460E9A /* AdidasFifa */,
+				96BFAE2C29CA807000460E9A /* AdidasFifaTests */,
+				96BFAE3629CA807000460E9A /* AdidasFifaUITests */,
+				96BFAE1429CA806F00460E9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		96BFAE1429CA806F00460E9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE1329CA806F00460E9A /* AdidasFifa.app */,
+				96BFAE2929CA807000460E9A /* AdidasFifaTests.xctest */,
+				96BFAE3329CA807000460E9A /* AdidasFifaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96BFAE1529CA806F00460E9A /* AdidasFifa */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE6729CA89AC00460E9A /* Networking  */,
+				96BFAE4629CA80DC00460E9A /* DataBiding */,
+				96BFAE4729CA80E400460E9A /* Delegate */,
+				96BFAE4829CA80EA00460E9A /* Extensions */,
+				96BFAE2429CA807000460E9A /* Info.plist */,
+				96BFAE4929CA80F300460E9A /* Resources */,
+				96BFAE4B29CA810400460E9A /* Scenes */,
+				96BFAE4A29CA80FD00460E9A /* Views */,
+			);
+			path = AdidasFifa;
+			sourceTree = "<group>";
+		};
+		96BFAE2C29CA807000460E9A /* AdidasFifaTests */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE2D29CA807000460E9A /* AdidasFifaTests.swift */,
+			);
+			path = AdidasFifaTests;
+			sourceTree = "<group>";
+		};
+		96BFAE3629CA807000460E9A /* AdidasFifaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE3729CA807000460E9A /* AdidasFifaUITests.swift */,
+				96BFAE3929CA807000460E9A /* AdidasFifaUITestsLaunchTests.swift */,
+			);
+			path = AdidasFifaUITests;
+			sourceTree = "<group>";
+		};
+		96BFAE4629CA80DC00460E9A /* DataBiding */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE5A29CA87CD00460E9A /* DataBiding.swift */,
+			);
+			path = DataBiding;
+			sourceTree = "<group>";
+		};
+		96BFAE4729CA80E400460E9A /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE1629CA806F00460E9A /* AppDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+		96BFAE4829CA80EA00460E9A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE6129CA885C00460E9A /* View+Extension.swift */,
+				96BD1B2729CD2FCD00AB5491 /* String+Extension.swift */,
+				96BD1B2929CD31DA00AB5491 /* Date+Extension.swift */,
+				96BD1B3229CDE9A000AB5491 /* UIImageView+Extension.swift */,
+				96E8DBCF29CE19EE006F0000 /* UIViewController+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		96BFAE4929CA80F300460E9A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE1F29CA807000460E9A /* Assets.xcassets */,
+				96BFAE2129CA807000460E9A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		96BFAE4A29CA80FD00460E9A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96E8DBC329CE1980006F0000 /* Modal */,
+				96BFAE5C29CA87F900460E9A /* Spinner */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		96BFAE4B29CA810400460E9A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE4C29CA811500460E9A /* Main */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		96BFAE4C29CA811500460E9A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE4F29CA812C00460E9A /* Model */,
+				96BFAE4E29CA812400460E9A /* View */,
+				96BFAE4D29CA811900460E9A /* ViewModel */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		96BFAE4D29CA811900460E9A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE6329CA88F300460E9A /* MainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		96BFAE4E29CA812400460E9A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				96F54EEF29CCB53D00201F24 /* Cell */,
+				96BFAE5129CA817200460E9A /* MainViewController.swift */,
+				96BFAE5229CA817200460E9A /* MainViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		96BFAE4F29CA812C00460E9A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE5829CA830B00460E9A /* Match.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		96BFAE5C29CA87F900460E9A /* Spinner */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE5D29CA880B00460E9A /* SpinnerView.swift */,
+				96BFAE5F29CA881200460E9A /* SpinnerView.xib */,
+			);
+			path = Spinner;
+			sourceTree = "<group>";
+		};
+		96BFAE6729CA89AC00460E9A /* Networking  */ = {
+			isa = PBXGroup;
+			children = (
+				96BFAE6829CA89BE00460E9A /* ErrorResponse.swift */,
+				96BFAE6A29CA89F000460E9A /* NetworkConstants.swift */,
+			);
+			path = "Networking ";
+			sourceTree = "<group>";
+		};
+		96E8DBC329CE1980006F0000 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				96E8DBC429CE1991006F0000 /* Components */,
+				96E8DBC629CE19A2006F0000 /* ModalContainerView.swift */,
+				96E8DBC529CE19A2006F0000 /* ModalViewController.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		96E8DBC429CE1991006F0000 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				96E8DBCB29CE19B9006F0000 /* ActionButton.swift */,
+				96E8DBCA29CE19B9006F0000 /* BodyLabel.swift */,
+				96E8DBC929CE19B9006F0000 /* TitleLabel.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		96F54EEF29CCB53D00201F24 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				96F54EF029CCB55900201F24 /* MatchCell.swift */,
+				96F54EF129CCB55900201F24 /* MatchCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96BFAE1229CA806F00460E9A /* AdidasFifa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BFAE3D29CA807000460E9A /* Build configuration list for PBXNativeTarget "AdidasFifa" */;
+			buildPhases = (
+				96BFAE0F29CA806F00460E9A /* Sources */,
+				96BFAE1029CA806F00460E9A /* Frameworks */,
+				96BFAE1129CA806F00460E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdidasFifa;
+			packageProductDependencies = (
+				96BFAE5629CA828F00460E9A /* NET */,
+			);
+			productName = AdidasFifa;
+			productReference = 96BFAE1329CA806F00460E9A /* AdidasFifa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96BFAE2829CA807000460E9A /* AdidasFifaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BFAE4029CA807000460E9A /* Build configuration list for PBXNativeTarget "AdidasFifaTests" */;
+			buildPhases = (
+				96BFAE2529CA807000460E9A /* Sources */,
+				96BFAE2629CA807000460E9A /* Frameworks */,
+				96BFAE2729CA807000460E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96BFAE2B29CA807000460E9A /* PBXTargetDependency */,
+			);
+			name = AdidasFifaTests;
+			productName = AdidasFifaTests;
+			productReference = 96BFAE2929CA807000460E9A /* AdidasFifaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		96BFAE3229CA807000460E9A /* AdidasFifaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96BFAE4329CA807000460E9A /* Build configuration list for PBXNativeTarget "AdidasFifaUITests" */;
+			buildPhases = (
+				96BFAE2F29CA807000460E9A /* Sources */,
+				96BFAE3029CA807000460E9A /* Frameworks */,
+				96BFAE3129CA807000460E9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96BFAE3529CA807000460E9A /* PBXTargetDependency */,
+			);
+			name = AdidasFifaUITests;
+			productName = AdidasFifaUITests;
+			productReference = 96BFAE3329CA807000460E9A /* AdidasFifaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96BFAE0B29CA806F00460E9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					96BFAE1229CA806F00460E9A = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					96BFAE2829CA807000460E9A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 96BFAE1229CA806F00460E9A;
+					};
+					96BFAE3229CA807000460E9A = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 96BFAE1229CA806F00460E9A;
+					};
+				};
+			};
+			buildConfigurationList = 96BFAE0E29CA806F00460E9A /* Build configuration list for PBXProject "AdidasFifa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96BFAE0A29CA806F00460E9A;
+			packageReferences = (
+				96BFAE5529CA828F00460E9A /* XCRemoteSwiftPackageReference "NET" */,
+			);
+			productRefGroup = 96BFAE1429CA806F00460E9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96BFAE1229CA806F00460E9A /* AdidasFifa */,
+				96BFAE2829CA807000460E9A /* AdidasFifaTests */,
+				96BFAE3229CA807000460E9A /* AdidasFifaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96BFAE1129CA806F00460E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BFAE2329CA807000460E9A /* LaunchScreen.storyboard in Resources */,
+				96F54EF329CCB55A00201F24 /* MatchCell.xib in Resources */,
+				96BFAE5429CA817200460E9A /* MainViewController.xib in Resources */,
+				96BFAE6029CA881200460E9A /* SpinnerView.xib in Resources */,
+				96BFAE2029CA807000460E9A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BFAE2729CA807000460E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BFAE3129CA807000460E9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96BFAE0F29CA806F00460E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BD1B3329CDE9A000AB5491 /* UIImageView+Extension.swift in Sources */,
+				96E8DBC829CE19A2006F0000 /* ModalContainerView.swift in Sources */,
+				96BFAE6429CA88F300460E9A /* MainViewModel.swift in Sources */,
+				96BD1B2829CD2FCD00AB5491 /* String+Extension.swift in Sources */,
+				96BFAE6B29CA89F000460E9A /* NetworkConstants.swift in Sources */,
+				96E8DBCE29CE19B9006F0000 /* ActionButton.swift in Sources */,
+				96BFAE1729CA806F00460E9A /* AppDelegate.swift in Sources */,
+				96BFAE5E29CA880B00460E9A /* SpinnerView.swift in Sources */,
+				96E8DBD029CE19EE006F0000 /* UIViewController+Extension.swift in Sources */,
+				96E8DBCD29CE19B9006F0000 /* BodyLabel.swift in Sources */,
+				96E8DBC729CE19A2006F0000 /* ModalViewController.swift in Sources */,
+				96BD1B2A29CD31DA00AB5491 /* Date+Extension.swift in Sources */,
+				96BFAE5329CA817200460E9A /* MainViewController.swift in Sources */,
+				96F54EF229CCB55A00201F24 /* MatchCell.swift in Sources */,
+				96BFAE5B29CA87CD00460E9A /* DataBiding.swift in Sources */,
+				96BFAE6929CA89BE00460E9A /* ErrorResponse.swift in Sources */,
+				96E8DBCC29CE19B9006F0000 /* TitleLabel.swift in Sources */,
+				96BFAE6229CA885C00460E9A /* View+Extension.swift in Sources */,
+				96BFAE5929CA830B00460E9A /* Match.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BFAE2529CA807000460E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BFAE2E29CA807000460E9A /* AdidasFifaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96BFAE2F29CA807000460E9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96BFAE3A29CA807000460E9A /* AdidasFifaUITestsLaunchTests.swift in Sources */,
+				96BFAE3829CA807000460E9A /* AdidasFifaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96BFAE2B29CA807000460E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96BFAE1229CA806F00460E9A /* AdidasFifa */;
+			targetProxy = 96BFAE2A29CA807000460E9A /* PBXContainerItemProxy */;
+		};
+		96BFAE3529CA807000460E9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96BFAE1229CA806F00460E9A /* AdidasFifa */;
+			targetProxy = 96BFAE3429CA807000460E9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96BFAE2129CA807000460E9A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96BFAE2229CA807000460E9A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96BFAE3B29CA807000460E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		96BFAE3C29CA807000460E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96BFAE3E29CA807000460E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdidasFifa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jghg02.AdidasFifa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		96BFAE3F29CA807000460E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AdidasFifa/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jghg02.AdidasFifa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		96BFAE4129CA807000460E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jghg02.AdidasFifaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdidasFifa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdidasFifa";
+			};
+			name = Debug;
+		};
+		96BFAE4229CA807000460E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jghg02.AdidasFifaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AdidasFifa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AdidasFifa";
+			};
+			name = Release;
+		};
+		96BFAE4429CA807000460E9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jghg02.AdidasFifaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdidasFifa;
+			};
+			name = Debug;
+		};
+		96BFAE4529CA807000460E9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jghg02.AdidasFifaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AdidasFifa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96BFAE0E29CA806F00460E9A /* Build configuration list for PBXProject "AdidasFifa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BFAE3B29CA807000460E9A /* Debug */,
+				96BFAE3C29CA807000460E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BFAE3D29CA807000460E9A /* Build configuration list for PBXNativeTarget "AdidasFifa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BFAE3E29CA807000460E9A /* Debug */,
+				96BFAE3F29CA807000460E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BFAE4029CA807000460E9A /* Build configuration list for PBXNativeTarget "AdidasFifaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BFAE4129CA807000460E9A /* Debug */,
+				96BFAE4229CA807000460E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96BFAE4329CA807000460E9A /* Build configuration list for PBXNativeTarget "AdidasFifaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96BFAE4429CA807000460E9A /* Debug */,
+				96BFAE4529CA807000460E9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		96BFAE5529CA828F00460E9A /* XCRemoteSwiftPackageReference "NET" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jghg02/NET";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		96BFAE5629CA828F00460E9A /* NET */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 96BFAE5529CA828F00460E9A /* XCRemoteSwiftPackageReference "NET" */;
+			productName = NET;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 96BFAE0B29CA806F00460E9A /* Project object */;
+}

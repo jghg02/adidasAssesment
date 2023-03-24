@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "62FB39A2-C121-4094-A828-C179DCB39CAE"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EA40D649-11A0-40A8-9EF0-F4663113D453"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdidasFifa/Scenes/Main/View/MainViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "fetchdata()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EA40D649-11A0-40A8-9EF0-F4663113D453 - 6ea4a844e700b513"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AdidasFifa.MainViewController.fetchdata() -&gt; ()"
+                  moduleName = "AdidasFifa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josue.hernandez01/Desktop/MyApp/Me/iOS/AdidasFifa/AdidasFifa/Scenes/Main/View/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "EA40D649-11A0-40A8-9EF0-F4663113D453 - ced5d659b6f2291f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for closure #1 @Sendable () async -&gt; () in AdidasFifa.MainViewController.fetchdata() -&gt; ()"
+                  moduleName = "AdidasFifa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josue.hernandez01/Desktop/MyApp/Me/iOS/AdidasFifa/AdidasFifa/Scenes/Main/View/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "EA40D649-11A0-40A8-9EF0-F4663113D453 - 6dd64720c969f915"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for closure #1 @Sendable () async -&gt; () in AdidasFifa.MainViewController.fetchdata() -&gt; ()"
+                  moduleName = "AdidasFifa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josue.hernandez01/Desktop/MyApp/Me/iOS/AdidasFifa/AdidasFifa/Scenes/Main/View/MainViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "71"
+                  endingLineNumber = "71"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "556C7941-FC45-4670-B2BC-F683A5FD92CA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/AdidasFifa-hekrerwcmctpuzanfhcuyyauyzar/SourcePackages/checkouts/NET/Sources/NET/NETClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "556C7941-FC45-4670-B2BC-F683A5FD92CA - 7a2931553f9eff0f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for NET.NETClient.request(Foundation.URLRequest) async -&gt; Swift.Result&lt;NET.NETResponse&lt;&#x3c4;_0_0&gt;, NET.NETHTTPError&lt;&#x3c4;_0_1&gt;&gt;"
+                  moduleName = "AdidasFifa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josue.hernandez01/Library/Developer/Xcode/DerivedData/AdidasFifa-hekrerwcmctpuzanfhcuyyauyzar/SourcePackages/checkouts/NET/Sources/NET/NETClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "556C7941-FC45-4670-B2BC-F683A5FD92CA - 83bbb71158c4a862"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for NET.NETClient.request(Foundation.URLRequest) async -&gt; Swift.Result&lt;NET.NETResponse&lt;&#x3c4;_0_0&gt;, NET.NETHTTPError&lt;&#x3c4;_0_1&gt;&gt;"
+                  moduleName = "AdidasFifa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josue.hernandez01/Library/Developer/Xcode/DerivedData/AdidasFifa-hekrerwcmctpuzanfhcuyyauyzar/SourcePackages/checkouts/NET/Sources/NET/NETClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "556C7941-FC45-4670-B2BC-F683A5FD92CA - 514e7c581cdb1102"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for NET.NETClient.request(Foundation.URLRequest) async -&gt; Swift.Result&lt;NET.NETResponse&lt;&#x3c4;_0_0&gt;, NET.NETHTTPError&lt;&#x3c4;_0_1&gt;&gt;"
+                  moduleName = "AdidasFifa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josue.hernandez01/Library/Developer/Xcode/DerivedData/AdidasFifa-hekrerwcmctpuzanfhcuyyauyzar/SourcePackages/checkouts/NET/Sources/NET/NETClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "39"
+                  endingLineNumber = "39"
+                  offsetFromSymbolStart = "80">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "43A771C4-83C4-4394-9061-A0B00FEEACB7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/AdidasFifa-hekrerwcmctpuzanfhcuyyauyzar/SourcePackages/checkouts/NET/Sources/NET/NETClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "parse(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3718C419-1FCF-46DC-B494-F18316E5AC0D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../../Library/Developer/Xcode/DerivedData/AdidasFifa-hekrerwcmctpuzanfhcuyyauyzar/SourcePackages/checkouts/NET/Sources/NET/NETClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "request(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A06C9A71-E854-4AAC-9CC2-DFC1BACB3B28"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdidasFifa/Scenes/Main/Model/Match.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "CodingKeys"
+            landmarkType = "13">
+            <Locations>
+               <Location
+                  uuid = "A06C9A71-E854-4AAC-9CC2-DFC1BACB3B28 - 413c2b4adba62e39"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdidasFifa.Match.CodingKeys.init(rawValue: Swift.String) -&gt; Swift.Optional&lt;AdidasFifa.Match.CodingKeys&gt;"
+                  moduleName = "AdidasFifa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josue.hernandez01/Desktop/MyApp/Me/iOS/AdidasFifa/AdidasFifa/Scenes/Main/Model/Match.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "172">
+               </Location>
+               <Location
+                  uuid = "A06C9A71-E854-4AAC-9CC2-DFC1BACB3B28 - d3615029382e0476"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AdidasFifa.Match.CodingKeys.rawValue.getter : Swift.String"
+                  moduleName = "AdidasFifa"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/josue.hernandez01/Desktop/MyApp/Me/iOS/AdidasFifa/AdidasFifa/Scenes/Main/Model/Match.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF0A38DB-E633-46A9-9DA0-0B7CEDACF4E1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdidasFifa/Views/Error/GenericErrorView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "setUpView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B4B99B1F-E3A5-4319-ABB3-4BD370387348"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AdidasFifa/Views/Error/GenericErrorView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "setUpView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
