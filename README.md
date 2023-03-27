@@ -33,25 +33,3 @@ For more detail about NET. This is the [repo](https://github.com/jghg02/NET)
 
 
 
-
-
-
-
-
-
-
-
-
-## Design patterns. 
-
-For the solution we used MVVM.
-
-
-Everything related to the networking part was implemented with a Swift Package Manager developed by me called `JNetworking` which is published on GitHub and is still under development. 
-
-I leave the link [here](https://github.com/jghg02/JNetworking)
-
-## Specifications
-- Xcode 13.1
-- Swift 5.0 
-
